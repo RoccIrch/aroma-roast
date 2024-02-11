@@ -1,0 +1,15 @@
+.welcome {
+    position: relative;
+    top: -16vh;
+    background-color: #DAD2C5;
+    color : #211e1c;
+}
+.welcome h2 {
+    font-family: 'Kalam', cursive;
+    font-size: 48px;
+    width: 50%;
+    margin: auto;
+}
+.swiper img{
+    width: 500px;
+}
