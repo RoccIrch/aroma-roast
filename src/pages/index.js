@@ -7,6 +7,7 @@ import Welcome from "@/Component/Main/Welcome";
 import Information from "@/Component/Main/Information";
 import Coffees from "@/Component/Main/Coffees";
 import Contact from "@/Component/Main/Contact";
+import Footer from "@/Component/Footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function Home() {
         <Coffees />
         <Contact />
       </main>
+      <footer><Footer /></footer>
     </>
   );
 }
