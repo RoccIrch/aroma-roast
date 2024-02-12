@@ -1,15 +1,44 @@
 .welcome {
-    position: relative;
-    top: -16vh;
+    width: 90%;
+    margin: auto;
+    position: static;
     background-color: #DAD2C5;
     color : #211e1c;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 8%;
+    padding-bottom: 12vh;
+    align-items: center;
 }
-.welcome h2 {
-    font-family: 'Kalam', cursive;
-    font-size: 48px;
-    width: 50%;
+.welcome h2{
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+.welcome p{
+    font-size: 20px;
+}
+.welcomeSwiper img{
+    border-radius: 12px;
+}
+
+.informations {
+    position: static;
+    padding: 6vh;
+    top: -16vh;
+    background-image: url('/images/white_bricks.jpg');
+    background-size: 100%;
+}
+.paragraphe {
+    width: 75%;
     margin: auto;
 }
-.swiper img{
-    width: 500px;
+.icons {
+    width: 80%;
+    margin: 5vh auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10%;
+}
+.propreties {
+    text-align: center;
 }

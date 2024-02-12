@@ -1,5 +1,6 @@
 .video {
     position: relative;
+    width: 110%;
     top: -16vh;
     left: 15vw;
     z-index: -4;
@@ -27,6 +28,7 @@
 }
 
 .navigation {
+    z-index: 50;
     background-color: #211e1c;
     color: #fcfbf8;
     display: block;
