@@ -5,6 +5,8 @@ import styles from "@/styles/Home.module.css";
 import Header from "@/Component/Head/Header";
 import Welcome from "@/Component/Main/Welcome";
 import Information from "@/Component/Main/Information";
+import Coffees from "@/Component/Main/Coffees";
+import Contact from "@/Component/Main/Contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +19,8 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <Welcome />
         <Information />
+        <Coffees />
+        <Contact />
       </main>
     </>
   );
