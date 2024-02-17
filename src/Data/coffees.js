@@ -20,6 +20,11 @@ export const coffeeList = [
                         quantity : 0,
                     },
                     {
+                        name : "Mexican Decaf'", 
+                        image :"mexican_decaf.png", 
+                        quantity : 0,
+                    },
+                    {
                         name : "Dominican Moka", 
                         image :"dominican_moka.png", 
                         quantity : 0,

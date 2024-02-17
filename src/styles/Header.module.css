@@ -2,7 +2,7 @@
     position: relative;
     width: 110%;
     top: -16vh;
-    left: 15vw;
+    left: 10vw;
     z-index: -4;
 }
 .bg {
@@ -20,12 +20,6 @@
     opacity: 1;
 }
 
-.logo {
-    position: absolute; 
-    top: 45vh;
-    left: 5vw;
-    z-index: -2;
-}
 
 .navigation {
     z-index: 50;

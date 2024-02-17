@@ -8,13 +8,12 @@ export default function Hero() {
         <source src="/videos/roasting.mp4" type="video/mp4" />
       </video>
       <div className={styles.bg}></div>
-      <Image 
-      className={styles.logo}
-        src="/images/logo_dark.png"
-        width={500}
-        height={300}
-        alt="logo"
-      />
+        <Image 
+          src="/images/logo_dark.png"
+          alt="logo"
+          width={100}
+          height={90}
+        />
     </>
   )
 }

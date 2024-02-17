@@ -8,6 +8,7 @@ import 'swiper/css/autoplay';
 
 
 export default function Welcome() {
+
   return (
     <div className={styles.welcome}>
       <div className={styles.welcomeText}>
