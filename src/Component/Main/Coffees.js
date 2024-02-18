@@ -31,7 +31,7 @@ export default function Coffees() {
                 }}
                 className="mySwiper"
             >
-                {coffeeList.map((item) => (<SwiperSlide><CoffeeCard name={item.name} image={item.image} /></SwiperSlide>))}
+                {coffeeList.map((item) => (<SwiperSlide key={item.name}><CoffeeCard name={item.name} image={item.image} /></SwiperSlide>))}
             </Swiper>
         </div>
     </div>
