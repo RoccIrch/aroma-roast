@@ -5,7 +5,7 @@ export default function Nav() {
   return (
     <nav className={styles.navigation}>
        <ul>
-        <li><Link href="">Our Roasts</Link></li>
+        <li><Link href="">Our Roast</Link></li>
         <li><Link href="">About us</Link></li>
         <li><Link href="">Contact</Link></li>
        </ul>
