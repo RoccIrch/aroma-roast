@@ -1,23 +1,30 @@
 .video {
     position: relative;
-    width: 110%;
-    top: -16vh;
+    width: 110vw;
+    height: 110vh;
+    top: -10vh;
     left: 10vw;
     z-index: -4;
 }
 .bg {
     display: block;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 105%;
+    top: -10vh;
+    left: 10vw;
+    width: 110vw;
+    height: 110vh;
     content: ' ';
     z-index: -2;
     backface-visibility: hidden;
     background: rgb(218,210,197);
     background: linear-gradient(63deg, rgba(218,210,197,1) 30%, rgba(0,0,0,0) 90%); 
     opacity: 1;
+}
+.logo {
+    display: block;
+    position: absolute;
+    top: 50vh;
+    left: 3vw;
 }
 
 
@@ -40,7 +47,6 @@
     text-align: center;
 }
 .navigation ul li {
-    font-family: 'Lato', sans-serif;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 2vw;
 }
